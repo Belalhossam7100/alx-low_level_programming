@@ -1,5 +1,2 @@
-#include<stdio.h>
-int main(void)
-{
-return (0);
-}             
+#!/bin/bash
+gcc -E -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE -o c
