@@ -1,0 +1,36 @@
+6-size.c: In function ‘main’:
+6-size.c:13:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘:’ token
+   13 |  float f:
+      |         ^
+6-size.c:13:9: error: expected expression before ‘:’ token
+6-size.c:17:28: warning: format ‘%lu’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+   17 |  printf("Size of an int: %lu byte(s)\n",  sizeof(i));
+      |                          ~~^              ~~~~~~~~~
+      |                            |              |
+      |                            |              unsigned int
+      |                            long unsigned int
+      |                          %u
+6-size.c:18:51: error: ‘f’ undeclared (first use in this function)
+   18 |  printf("Size of a float: %lu byte(s)\n",  sizeof(f));
+      |                                                   ^
+6-size.c:18:51: note: each undeclared identifier is reported only once for each function it appears in
+6-size.c:19:28: warning: format ‘%lu’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+   19 |  printf("Size of a char: %lu byte(S)\n",  sizeof(c));
+      |                          ~~^              ~~~~~~~~~
+      |                            |              |
+      |                            |              unsigned int
+      |                            long unsigned int
+      |                          %u
+6-size.c:20:32: warning: format ‘%lu’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+   20 |  printf("Size of a long int: %lu byte(s)\n",  sizeof(d));
+      |                              ~~^              ~~~~~~~~~
+      |                                |              |
+      |                                |              unsigned int
+      |                                long unsigned int
+      |                              %u
+6-size.c:21:37: warning: format ‘%ln’ expects argument of type ‘long int *’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+   21 |  printf("Size of a long long int: %ln byte(s)\n",  sizeof(g));
+      |                                   ~~^              ~~~~~~~~~
+      |                                     |              |
+      |                                     long int *     unsigned int
+      |                                   %d
