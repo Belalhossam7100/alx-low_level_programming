@@ -3,12 +3,10 @@
 #include <time.h>
 
 
-/*
+/**
  * main - main function
- * if n is postive print postive
- * if n is negative print negative
- * if n is zero print zero
- * Return: always (0)
+ * 
+ * Return: always 0
  */
 int main(void)
 {
