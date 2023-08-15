@@ -4,7 +4,7 @@
 
 
 /*
- * main :is the function
+ * main : is a function
  * if n is postive print postive
  * if n is negative print negative
  * if n is zero print zero
