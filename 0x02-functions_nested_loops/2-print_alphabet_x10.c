@@ -14,10 +14,10 @@ int j;
 for (i = 97; i <= 122; i++)
 {
 _putchar(i);
-for (j = 0; i <= 5; j++)
-{	
+for (j = 0; i <= 10; j++)
+{
 _putchar(j);
 }
-return;
 }
+return;
 }
