@@ -4,13 +4,9 @@
  *@c : character to be checked
  *Return: if the character is lowercase ,otherwise
  */
-int _islower(int c)
+int _isalpha(int c)
 {
-if (c >= 'a' && c <= 'z')
-{
-return (1);
-}
-else if (c >= 'A' && c <= 'Z')
+if ((c >= 'a' && c <= '2') || (c >= 'A' && c <= 'Z'))
 {
 return (1);
 }
