@@ -10,7 +10,7 @@ if (c >= 'a' && c <= '2')
 {
 return (1);
 }
-if ((c >= 'A' && c <= 'Z'))
+else if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
