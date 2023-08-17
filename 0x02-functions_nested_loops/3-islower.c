@@ -5,7 +5,7 @@
 int _islower(int c)
 {
 
-if (_putchar(c) >= 97 && _putchar(c) <= 122)
+if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
