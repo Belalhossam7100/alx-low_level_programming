@@ -1,8 +1,11 @@
 #include "main.h"
 /**
- * _isalpha - checks for lower case and upper case
- *@c : character to be checked
- *Return: if the character is lowercase ,otherwise
+ * print_sign prints the sign of a numver
+ * @n: the int to check
+ *Return: 1 and prints + if n is greater than zero
+ *
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
 
 int print_sign(int n)
