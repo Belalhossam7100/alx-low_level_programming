@@ -5,7 +5,7 @@
 
 /**
  * positive_or_negative - tset positive or negative
- *@i;number to be tested
+ *@i : number to be tested
  * Return: always 0
  */
 void positive_or_negative(int i)
