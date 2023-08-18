@@ -5,7 +5,7 @@
  *@i : number to be tested
  * Return: always 0
  */
-void positive_or_negative(int i)
+int positive_or_negative(int i)
 {
 
 if (i > 0)
@@ -20,4 +20,5 @@ else
 {
 printf("%d is negative\n", i);
 }
+return (0);
 }
